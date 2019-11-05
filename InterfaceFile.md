@@ -279,6 +279,7 @@ V1.0接口文档
  totalProfit  | 总收益 | 无
  
 ### 购买
+发起支付，和实名认证、vip申请是同一个接口
 请求:
  
  参数 | 释义 | 默认值 | 是否必传 | 备注
@@ -348,8 +349,10 @@ V1.0接口文档
  ---- | ----- | ------ 
  phone  | 手机号 | 无 
  uName  | 用户名 | 无 
- uAuthenState  | 实名认证状态 | 0 未认证 1 认证中 2 已通过 3 未通过
- uVip  | 实名认证状态 | 0 不是vip 1 申请中 2 已通过 3 未通过
+ uAuthenState  | 实名认证状态 | 0 未认证 1 已认证
+ uAuthenPrice  | 实名认证手续费 | 无
+ uVipState  | vip状态 | 0 不是vip 1 是vip
+ uVipPrice  | vip手续费 | 无
  ubalance  | 用户余额 | 数组
  
  * 余额 = 已知余额 + 根据transactionHash查询的交易记录结果
