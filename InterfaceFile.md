@@ -68,9 +68,10 @@ V1.0接口文档
  字段 | 释义 | 备注
  ---- | ----- | ------ 
  eAddress  | eth地址 | 无
- publicKey  | 公钥 | 加密后返回
- privateKey  | 私钥 | 加密后返回 
- keyStore  | keyStore | 加密后返回 
+ publicKey  | 公钥 | 无
+ privateKey  | 私钥 | 无 
+ keyStore  | keyStore | 无 
+ words  | 助记词 | 无 
  
  ### 导入钱包
 请求:
@@ -86,9 +87,9 @@ V1.0接口文档
  字段 | 释义 | 备注
  ---- | ----- | ------ 
  eAddress  | eth地址 | 无
- publicKey  | 公钥 | 加密后返回
- privateKey  | 私钥 | 加密后返回 
- keyStore  | keyStore | 加密后返回 
+ publicKey  | 公钥 | 无
+ privateKey  | 私钥 | 无 
+ keyStore  | keyStore | 无 
  
 ### 获取余额
 请求: 数组形式
