@@ -106,6 +106,7 @@ V1.0接口文档
  currency  | 币种 | 无
  balance  | 余额 | 无 
  rmbBalance  | 人民币余额 | 无 
+ logo_png  | logo | 无 
   
 ### 转账
 请求:
