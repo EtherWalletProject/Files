@@ -119,7 +119,7 @@ V1.0接口文档
  toAddress  | 转账地址 | 无 | 否 | 其他钱包传
  uId  | 用户Id | 无 | 否 | 云钱包传
  amount  | 转账金额 | 无 | 是 | 无
- limit  | 矿工费 | 无 | 是 | 无
+ gWei  | 矿工费 | 无 | 是 | 无
  currency  | 币种 | eth | 是 | 无
  sign  | 参数加密 | 无 | 是 | 无   
  
