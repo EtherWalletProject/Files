@@ -117,7 +117,7 @@ V1.0接口文档
  fromAddress  | 本地钱包地址 | 无 | 是 | 无
  privateKey  | 私钥 | 无 | 是 | 加密
  toAddress  | 转账地址 | 无 | 否 | 其他钱包传
- uId  | 用户Id | 无 | 否 | 云钱包传
+ phone  | 用户手机号 | 无 | 否 | 云钱包传
  amount  | 转账金额 | 无 | 是 | 无
  gWei  | 矿工费 | 无 | 是 | 无
  currency  | 币种 | eth | 是 | 无
