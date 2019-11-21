@@ -213,6 +213,8 @@ V1.0接口文档
  supportCount  | 点赞数 | 无
  isSupport  | 是否点赞 | 0 否   1 是
  commentCount  | 评论数 | 无
+ currency  | 币种 | eth | 是 | 无
+ amount  | 金额 | 无 | 是 | 无
  
 ### 发布
 请求:
