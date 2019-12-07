@@ -137,6 +137,7 @@ V1.0接口文档
  fromAddress  | 本地钱包地址 | 无 | 是 | 无
  privateKey  | 私钥 | 无 | 是 | 加密
  toAddress  | 转账地址 | 无 | 否 | 其他钱包传
+ contractAddress  | 协议地址 | 无 | 否 | 代币传
  phone  | 用户手机号 | 无 | 否 | 云钱包传
  amount  | 转账金额 | 无 | 是 | 无
  gWei  | 矿工费 | 无 | 是 | 无
@@ -177,6 +178,7 @@ V1.0接口文档
  amount  | 转账金额 | 无 | 是 | 无
  phone  | 收款手机号 | 无 | 否 | 与toAddress有一个不为空，多个用,分割
  toAddress  | 收款地址 | 无 | 否 | 不为空时limit也不为空，多个用,分割
+ contractAddress  | 协议地址 | 无 | 否 | 代币传
  privateKey  | 私钥 | 无 | 否 | 无
  gWei  | 矿工费 | 无 | 否 | 无
  sign  | 参数加密 | 无 | 是 | 无   
