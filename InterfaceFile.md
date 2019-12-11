@@ -177,9 +177,7 @@ V1.0接口文档
  currency  | 币种 | eth | 是 | 无
  amount  | 转账金额 | 无 | 是 | 无
  phone  | 收款手机号 | 无 | 否 | 与toAddress有一个不为空，多个用,分割
- toAddress  | 收款地址 | 无 | 否 | 不为空时limit也不为空，多个用,分割
- contractAddress  | 协议地址 | 无 | 否 | 代币传
- privateKey  | 私钥 | 无 | 否 | 无
+ toAddress  | 收款地址 | 无 | 否 | 不为空时limit也不为空
  gWei  | 矿工费 | 无 | 否 | 无
  sign  | 参数加密 | 无 | 是 | 无   
  
