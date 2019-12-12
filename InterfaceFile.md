@@ -450,6 +450,7 @@ V1.0接口文档
  ---- | ----- | ------ 
  phone  | 手机号 | 无 
  uName  | 用户名 | 无 
+ transferPassword  | 交易密码 | 无 
  uAuthenState  | 实名认证状态 | 0 未认证 1 已认证
  uVipState  | vip状态 | 0 不是vip 1 是vip
  uFreeState  | 是否封禁 | 0 否 1 是  默认0
@@ -470,6 +471,7 @@ V1.0接口文档
  uId  | 用户Id | 无 | 是 | 无 
  phone  | 手机号 | 无 | 否 | 无 
  uName  | 用户名 | 无 | 否 | 无 
+ transferPassword  | 交易密码 | 无  | 否 | 无 
  sign  | 参数加密 | 无 | 是 | 无   
  
  返回：
