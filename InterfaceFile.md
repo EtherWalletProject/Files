@@ -140,6 +140,7 @@ V1.0接口文档
  contractAddress  | 协议地址 | 无 | 否 | 代币传
  phone  | 用户手机号 | 无 | 否 | 云钱包传
  amount  | 转账金额 | 无 | 是 | 无
+ serviceCharge | 转账手续费 | 无 | 是 | eth类型
  gWei  | 矿工费 | 无 | 是 | 无
  currency  | 币种 | eth | 是 | 无
  sign  | 参数加密 | 无 | 是 | 无   
@@ -608,7 +609,8 @@ V1.0接口文档
  dividendRatio  | 分红比例 | 无 
  grantFans  | 一键发币，每个粉丝的手续费 
  authPrice  | 实名认证 | 无 
- vipPrice  | vip | 无 | 是
+ vipPrice  | vip | 无 
+ transferCharge  | 转账单位手续费 | 无
   
 ### 设置手续费
 请求:
@@ -620,6 +622,7 @@ V1.0接口文档
  grantFans  | 一键发币，每个粉丝的手续费 | 无 | 是 | 无   
  authPrice  | 实名认证 | 无 | 是 | 无   
  vipPrice  | vip | 无 | 是 | 无   
+ transferCharge  | 转账单位手续费 | 无 | 是 | double类型 1gwei对应的eth
  
  返回：
   
